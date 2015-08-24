@@ -1,0 +1,40 @@
+.ghost{
+
+  background: transparent;
+  color: black;
+
+  /* CSS Transition */
+  -webkit-transition: background .2s ease-in-out, border .2s ease-in-out;
+  -moz-transition: background .2s ease-in-out, border .2s ease-in-out;
+  -ms-transition: background .2s ease-in-out, border .2s ease-in-out;
+  -o-transition: background .2s ease-in-out, border .2s ease-in-out;
+  transition: background .2s ease-in-out, border .2s ease-in-out;
+
+}
+
+.squared{
+  -webkit-border-radius: 0;
+  -moz-border-radius:    0;
+  border-radius:         0;
+}
+
+.fractals {
+    position: relative;
+    background: #000 url("http://codewiz.org/wiki/pictures/fractals/fractals-070414-2yh.jpg") center center;
+    width: 100%;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.bees {
+    position: relative;
+    background: #000 url("https://upload.wikimedia.org/wikipedia/commons/0/0c/Apis_florea_nest_closeup2.jpg") center center;
+    width: 100%;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.box{
+  height: 5%;
+  border: 1px solid;
+}
